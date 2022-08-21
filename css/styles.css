@@ -1,0 +1,199 @@
+:root {
+    --main-font-color: #757575;
+    --title-font-color-white: #FFFFFF;
+    --title-font-color-blaсk: #212121;
+    --accent-color: #2196F3;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: #757575;
+    font-family: 'Roboto', 'Open Sans';
+    }
+
+ul {
+    list-style: none;
+}
+
+/* Навігація */
+
+.nav-basa {
+    color: #000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
+}
+
+.nav-white {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1,71;
+    letter-spacing: 0.03em;
+    
+        
+}
+
+.nav-white:hover, .nav-white:focus {
+    color: var(--accent-color);
+}
+
+.nav-logo {
+    color:var(--title-font-color-white)
+}
+
+.nav-accent {
+    color:var(--accent-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1,2;
+    letter-spacing: 0.03em;
+}
+
+.nav-item {
+    color:var(--title-font-color-blaсk);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+}
+
+.pagination-item {
+    color: var(--title-font-color-blaсk);
+    background-color: var(--title-font-color-white);
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,08;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.pagination-item:hover,
+.pagination-item:focus {
+    color: var(--title-font-color-white);
+    background-color: var(--accent-color);
+}
+
+.contact {
+    color: #757575;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1, 14;
+    letter-spacing: 0.02em;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: var(--accent-color);
+}
+
+
+
+.button-activ {
+    color: var(--title-font-color-white);
+    font-style: normal;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.button-activ {
+    background-color: var(--accent-color);
+}
+
+.address {
+    color: var(--title-font-color-white);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1, 71;
+    letter-spacing: 0.03em;
+}
+
+
+/* Заголовки */
+
+.main-title {
+    color: var(--title-font-color-white);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1, 36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+.title {
+    color: var(--title-font-color-blaсk);
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    }
+
+.title-item {
+    color: var(--title-font-color-blaсk);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.title-team {
+    color: var(--title-font-color-blaсk);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.title-case {
+    color: var(--title-font-color-blaсk);
+    font-style: normal;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+
+/* Текст */
+
+
+.text {  
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 1,71;
+}
+
+.text-work {
+    font-size: 16px;
+    line-height: 1,19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.text-case {
+    font-size: 16px;
+    line-height: 1,88;
+    letter-spacing: 0.03em;
+}
+
+
+
+
+
