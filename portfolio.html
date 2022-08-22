@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <style> a { text-decoration: none }</style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -16,20 +17,20 @@
       <nav>
         <a href="./index.html" lang="en" class="nav-basa"><span class="nav-accent">Web</span>Studio</a>
         <ul>
-          <li><a class="nav-item" href="./index.html">Студія</a></li>
-          <li><a class="nav-item" href="./portfolio.html">Портфоліо</a></li>
-          <li><a class="nav-item" href="/">Контакти</a></li>
+          <li><a class="nav-item current-page: blue" href="./index.html">Студія</a></li>
+          <li><a class="nav-item current-page: blue" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="nav-item current-page: blue" href="/">Контакти</a></li>
         </ul>
       </nav>
       <ul>
-        <li><a class="nav-item contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="nav-item contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li><a class="nav-item contact current-page: blue" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a class="nav-item contact current-page: blue" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
     <main>
       <section>
         <!--Фільтр-->
-        <h2 hidden>Навігація сторінки</h2>
+        <h1 hidden>Навігація сторінки</h1>
         <ul>
           <li>
             <button class="pagination-item" type="button">Усі</button>
@@ -48,7 +49,6 @@
           </li>
         </ul>
         <!--Портфоліо-->
-        <h2 hidden>Портфоліо</h2>
         <ul>
           <li>
             <img
@@ -57,7 +57,7 @@
               width="370"
               height="294"
             />>
-            <h3 class="title-case">Технокряк</h3>
+            <h2 class="title-case">Технокряк</h2>
             <p class="text-case">Веб-сайт</p>
           </li>
           <li>
@@ -67,7 +67,7 @@
               width="370"
               height="294"
             />
-            <h3 class="title-case">Постер <span lang="en">New Orlean vs Golden Star</span></h3>
+            <h2 class="title-case">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
             <p class="text-case">Дизайн</p>
           </li>
           <li>
@@ -77,7 +77,7 @@
               width="370"
               height="294"
             />
-            <h3 class="title-case">Ресторан <span lang="en">Seafood</span></h3>
+            <h2 class="title-case">Ресторан <span lang="en">Seafood</span></h2>
             <p class="text-case">Додаток</p>
           </li>
           <li>
@@ -87,7 +87,7 @@
               width="370"
               height="294"
             />
-            <h3 class="title-case">Проєкт <span lang="en">Prime</span></h3>
+            <h2 class="title-case">Проєкт <span lang="en">Prime</span></h2>
             <p class="text-case">Маркетинг</p>
           </li>
           <li>
@@ -97,7 +97,7 @@
               width="370"
               height="294"
             />
-            <h3 class="title-case">Проєкт <span lang="en">Boxes</span></h3>
+            <h2 class="title-case">Проєкт <span lang="en">Boxes</span></h2>
             <p class="text-case">Додаток</p>
           </li>
           <li>
@@ -106,7 +106,7 @@
               alt="Веб-сайт"
               width="370"
               height="294">
-            <h3 lang="en" class="title-case">Inspiration has no Borders</h3>
+            <h2 lang="en" class="title-case">Inspiration has no Borders</h2>
             <p class="text-case">Веб-сайт</p>
             </li>
           <li>
@@ -115,7 +115,7 @@
               alt="Розгорнутий журнал"
               width="370" 
               height="294"/>
-            <h3 class="title-case">Видання <span lang="en">Limited Edition</span></h3>
+            <h2 class="title-case">Видання <span lang="en">Limited Edition</span></h2>
             <p class="text-case">Дизайн</p>
           </li>
           <li>
@@ -123,7 +123,7 @@
               src="./images/portfolio/portfolio-8.jpg"
               alt="Етикетка товару білого кольору на білому фоні з надписом"
             />
-            <h3 class="title-case">Проєкт <span lang="en">LAB</span></h3>
+            <h2 class="title-case">Проєкт <span lang="en">LAB</span></h2>
             <p class="text-case">Маркетинг</p>
           </li>
           <li>
@@ -131,7 +131,7 @@
               src="./images/portfolio/portfolio-9.jpg"
               alt="Руки чоловіка на клавішах ноутбуку. На екрані ноутбуку зображено додаток для бізнеса"
             />
-            <h3 lang="en" class="title-case">Growing Business</h3>
+            <h2 lang="en" class="title-case">Growing Business</h2>
             <p class="text-case">Додаток</p>
           </li>
         </ul>
@@ -140,7 +140,7 @@
     <footer>
       <a href="/" class="nav-logo"><span class="nav-accent">Web</span>Studio</a>
       <address>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
+        <p class="address-footer">м. Київ, пр-т Лесі Українки, 26</p>
         <ul>
           <li><a class="nav-white" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a class="nav-white" href="tel:+380961111111">+38 096 111 11 11</a></li>

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <style> a { text-decoration: none }</style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -16,24 +17,24 @@
       <nav>
         <a class="nav-basa" href="./index.html" lang="en"> <span class="nav-accent">Web</span>Studio</a>
           <ul>
-            <li><a class="nav-item" href="./index.html">Студія</a></li>
-            <li><a class="nav-item" href="./portfolio.html">Портфоліо</a></li>
-            <li><a class="nav-item" href="/">Контакти</a></li>
+            <li><a class="nav-item current-page: blue" href="./index.html">Студія</a></li>
+            <li><a class="nav-item current-page: blue" href="./portfolio.html">Портфоліо</a></li>
+            <li><a class="nav-item current-page: blue" href="/">Контакти</a></li>
           </ul>
       </nav>
           <ul>
-            <li><a class="nav-item contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="nav-item contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a class="nav-item contact current-page: blue" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="nav-item contact current-page: blue" href="tel:+380961111111">+38 096 111 11 11</a></li>
           </ul>
      </header>
     <main>
       <!--Шапка-->
-      <section>
+      <section class="section-hero">
         <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="button-activ">Замовити послугу</button>
         </section>
       <!--Особливості-->
-      <section>
+      <section class="section-text">
         <h2 hidden>Особливості</h2>
           <ul>
             <li>
@@ -66,7 +67,7 @@
             </ul>
         </section>
         <!--Чим займаються-->
-        <section>
+        <section class="section-text">
           <h2 class="title">Чим займаються</h2>
           <ul>
             <li>
@@ -96,7 +97,7 @@
           </ul>
         </section>
         <!--Команда-->
-        <section>
+        <section class="section-team" >
           <h2 class="title">Наша команда</h2>
             <ul>
               <li>
